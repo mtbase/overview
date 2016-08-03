@@ -40,7 +40,7 @@ MT-H, follow these steps:
  2. Use the [SQL scripts](https://github.com/mtbase/sql-scripts) to create the
     MT-H schema and load the generated data into your datbase of choice (MySQL
     or PostgreSQL).
- 3. Download and execute
+ 3. Download and compile
     [MT-Rewrite](https://github.com/lucasbraun/mt-rewrite).
  4. Configure the [Python scripts](https://github.com/mtbase/python-scripts) to
     point to your database and to MT-Rewrite.
