@@ -30,3 +30,18 @@ MTBase-on-PostgreSQL are open-source (in the SQL/Python scripts projects),
 System-M is a commercial system and scrpts for running the cannot be made
 publicly available for licencsing reasons. The evalation results can be found
 in the [MTBase white paper](extended.pdf).
+
+## Evaluation of MTBase with MT-H
+If you would like to evaluate MTBase-on-PostgreSQL or MTBase-on-MySQL with
+MT-H, follow these steps:
+1. Download, compile and execute the [MT-H data
+   generator](https://github.com/mtbase/mt-h).
+2. Use the [SQL scripts](https://github.com/mtbase/sql-scripts) to create the
+   MT-H schema and load the generated data into your datbase of choice (MySQL
+   or PostgreSQL).
+3. Download and execute [MT-Rewrite](https://github.com/lucasbraun/mt-rewrite).
+4. Configure the [Python scripts](https://github.com/mtbase/python-scripts) to
+   point to your database and to MT-Rewrite.
+5. Rewrite, (validate), and execute the MT-H benchmark queries using these
+   scripts. The scripts measure time, report results and can also be used to
+   summarize different runs with different parameters.
