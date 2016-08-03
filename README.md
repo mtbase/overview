@@ -3,7 +3,7 @@
 MTBase is a project at Systems Group, Department of Computer Science, ETH Zurich. It enables cross-tenant query processing on regular DBMS systems with a language called MTSQL. MTSQL extends SQL with addititional syntax and semantics for multi-tenant datbases. Please find out more about MTSQL and MTBase by reading our [white paper](extended.pdf).
 
 ## About MTBase
-![MTBase Architecture](mtbase-arch.pdf "MTBase Architecture")
+[![MTBase Architecture](mtbase-arch.pdf "MTBase Architecture")
 
 
 
