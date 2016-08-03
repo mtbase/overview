@@ -15,6 +15,9 @@ sitting between a client and any DBMS of choice. The query rewrite module
 [here](https://github.com/lucasbraun/mt-rewrite). The performance of MTBase was
 evaluated using the MT-H benchmark (described next).
 
+## Publications
+* [MTBase White Paper](extended.pdf)
+
 ## About MT-H
 The MT-H benchmark is a modified version of the TPC-H benchmark H to measure
 the performance of Cross-Tenant Query Processing in MTSQL processing engines.
