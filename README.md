@@ -12,7 +12,7 @@ reading our [white paper](extended.pdf).
 MTBase is a system that executes MTSQL. At its core, it is a middleware (proxy)
 sitting between a client and any DBMS of choice. The query rewrite module
 `mt-rewrite` was written in Haskel and can be found
-[here](https://github.com/lucasbraun/mt-rewrite). The performance of MTBase was
+[here](https://github.com/mtbase/mt-rewrite). The performance of MTBase was
 evaluated using the MT-H benchmark (described next).
 
 ## About MT-H
@@ -24,7 +24,7 @@ dbgen](https://github.com/mtbase/mt-h) for data generation, a couple of [SQL
 scripts](https://github.com/mtbase/sql-scripts) for data and schema loading and
 a couple of [Python scripts](https://github.com/mtbase/python-scripts) to
 rewrite and execute the queries. Queries were rewritten with
-[MT-Rewite](https://github.com/lucasbraun/mt-rewrite) and the systems under
+[MT-Rewite](https://github.com/mtbase/mt-rewrite) and the systems under
 test were MTBase-on-PostgreSQL and MTBase-on-System-M. While the scripts for
 MTBase-on-PostgreSQL are open-source (in the SQL/Python scripts projects),
 System-M is a commercial system and scripts for running it cannot be made
@@ -41,7 +41,7 @@ MT-H, follow these steps:
     MT-H schema and load the generated data into your datbase of choice (MySQL
     or PostgreSQL).
  3. Download and compile
-    [MT-Rewrite](https://github.com/lucasbraun/mt-rewrite).
+    [MT-Rewrite](https://github.com/mtbase/mt-rewrite).
  4. Configure the [Python scripts](https://github.com/mtbase/python-scripts) to
     point to your database and to MT-Rewrite.
  5. Rewrite, (validate), and execute the MT-H benchmark queries using these
